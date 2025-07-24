@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--Styles-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--Biblioteca Lightbox-->
     <link href="./dist/css/lightbox.css" rel="stylesheet" />
+    <!--Biblioteca AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Photographic Collection</title>
 </head>
 
@@ -47,35 +53,36 @@
     </section>
 
     <main>
-        <h1 class="title flex justify-center">Gallery</h1>
-        <div class="box-gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 m-4 p-4">
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <h1 class="title flex justify-center">Gallery</h1>
+            <div class="box-gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 m-4 p-4">
 
-            <a href="./assets/img/photo (1).jpeg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (1).jpeg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-            <a href="./assets/img/photo (2).jpg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (2).jpg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-            <a href="./assets/img/photo (3).jpg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (3).jpg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-            <!--SEGUNDA LINHA-->
-            <a href="./assets/img/photo (1).jpg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (1).jpg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-            <a href="./assets/img/photo (5).jpg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (5).jpg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-            <a href="./assets/img/photo (4).jpg" data-lightbox="roadtrip">
-                <img src="./assets/img/photo (4).jpg" alt="photo"
-                    class="photo-gallery w-full h-48 object-cover rounded-1">
-            </a>
-
+                <a href="./assets/img/photo (1).jpeg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (1).jpeg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+                <a href="./assets/img/photo (2).jpg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (2).jpg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+                <a href="./assets/img/photo (3).jpg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (3).jpg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+                <!--SEGUNDA LINHA-->
+                <a href="./assets/img/photo (1).jpg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (1).jpg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+                <a href="./assets/img/photo (5).jpg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (5).jpg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+                <a href="./assets/img/photo (4).jpg" data-lightbox="roadtrip">
+                    <img src="./assets/img/photo (4).jpg" alt="photo"
+                        class="photo-gallery w-full h-48 object-cover rounded-1">
+                </a>
+            </div>
         </div>
     </main>
 
@@ -84,6 +91,11 @@
     </footer>
 
 </body>
+<!--Biblioteca Lightbox (Script)-->
 <script src="./dist/js/lightbox-plus-jquery.js"></script>
+<!--Biblioteca (AOS)-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Script-->
+<script src="./script.js"></script>
 
 </html>
