@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    font-family: "Lora", serif;;
+}
+
+.link-header, .description {
+    color: gray;
+    text-decoration: none;
+}
+
+.btn-see-more{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-see-more:hover{
+    background-color: rgb(255, 242, 97);
+    color: #fff;
+}
+
+.title{
+    font-size: 35px;
+    color: rgb(60, 55, 79);
+
+}

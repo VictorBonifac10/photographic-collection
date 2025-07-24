@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./dist/css/lightbox.css" rel="stylesheet" />
+    <title>Photographic Collection</title>
+</head>
+
+<body>
+
+    <div class="fixed inset-0 bg-[url('/assets/img/img-bg.svg')] bg-cover bg-center opacity-12 -z-10"></div>
+
+    <header class="flex items-center justify-between m-3 p-2">
+        <img src="./assets/img/logo.svg" alt="logo" class="logo w-13">
+
+        <div class="flex gap-3 items-center">
+            <a href="#" class="link-header">Home</a>
+            <a href="#" class="link-header">About</a>
+            <a href="#" class="link-header">Gallery</a>
+            <a href="#" class="link-header">Contact</a>
+
+            <button class="btn-see-more text-amber-200 border-1 p-2 w-30">See more</button>
+        </div>
+    </header>
+
+    <section class="flex items-center gap-30 mt-20 ml-20 mr-20 mb-30">
+        <div class="text-content">
+            <div class="flex items-center gap-2">
+                <h1 class="title mb-5">Professional Painter Gallery from</h1>
+                <img src="./assets/img/italy-flag.png" class="w-8 mb-5" alt="italy-flag">
+            </div>
+            <p class="description max-w-150">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facere dignissimos minus quis modi
+                voluptatum minima repellendus excepturi vel tempora ex deleniti quidem veniam nesciunt at quo eos odit
+                molestias.
+            </p><br>
+
+            <button class="btn-see-more text-amber-200 border-1 p-2 w-30">See more</button>
+        </div>
+
+        <img src="./assets/img/photo-person.png" alt="photo-person"
+            class="photo-person w-[355px] h-[350px] object-cover rounded-full">
+    </section>
+
+    <main>
+        <h1 class="title flex justify-center">Gallery</h1>
+        <div class="box-gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 m-4 p-4">
+
+            <a href="./assets/img/photo (1).jpeg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (1).jpeg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+            <a href="./assets/img/photo (2).jpg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (2).jpg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+            <a href="./assets/img/photo (3).jpg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (3).jpg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+            <!--SEGUNDA LINHA-->
+            <a href="./assets/img/photo (1).jpg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (1).jpg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+            <a href="./assets/img/photo (5).jpg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (5).jpg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+            <a href="./assets/img/photo (4).jpg" data-lightbox="roadtrip">
+                <img src="./assets/img/photo (4).jpg" alt="photo"
+                    class="photo-gallery w-full h-48 object-cover rounded-1">
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="flex justify-center mt-10 mb-5">
+        <p class="finally">all rights reserved @ 2025</p>
+    </footer>
+
+</body>
+<script src="./dist/js/lightbox-plus-jquery.js"></script>
+
+</html>
