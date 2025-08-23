@@ -5,6 +5,8 @@ Portfólio de pinturas desenvolvido com Grid CSS, utilizando AOS para animaçõe
 
 <img src="./assets/readme/readme.png" alt="preview" width="500" />
 
+🔗 [Acesse aqui a versão online](https://victorbonifac10.github.io/photographic-collection/)
+
 ## ✨ Recursos
 
 - HTML5
