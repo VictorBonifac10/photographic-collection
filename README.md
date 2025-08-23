@@ -1,4 +1,4 @@
-# Cadastro de Usuários
+# Photographic Collection 
 Portfólio de pinturas desenvolvido com Grid CSS, utilizando AOS para animações e Lightbox para visualização das imagens.
 
 ## 💻 Demonstração
