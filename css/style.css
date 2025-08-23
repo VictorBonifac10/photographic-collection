@@ -23,5 +23,21 @@
 .title{
     font-size: 35px;
     color: rgb(60, 55, 79);
+}
 
+@media (max-width: 650px) {
+
+    header div{
+        display: none;
+    }
+
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+    }
 }

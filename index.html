@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <div class="fixed inset-0 bg-[url('/assets/img/img-bg.svg')] bg-cover bg-center opacity-12 -z-10"></div>
 
     <header class="flex items-center justify-between m-3 p-2">
@@ -34,7 +33,7 @@
     </header>
 
     <section class="flex items-center gap-30 mt-20 ml-20 mr-20 mb-30">
-        <div class="text-content">
+        <div class="">
             <div class="flex items-center gap-2">
                 <h1 class="title mb-5">Professional Painter Gallery from</h1>
                 <img src="./assets/img/italy-flag.png" class="w-8 mb-5" alt="italy-flag">
@@ -47,7 +46,7 @@
 
             <button class="btn-see-more text-amber-200 border-1 p-2 w-30">See more</button>
         </div>
-        
+
         <img src="./assets/img/photo-person.png" alt="photo-person"
             class="photo-person w-[355px] h-[350px] object-cover rounded-full">
     </section>
@@ -93,5 +92,8 @@
 <!--Biblioteca (AOS)-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!--Script-->
-<script src="./script.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </html>
